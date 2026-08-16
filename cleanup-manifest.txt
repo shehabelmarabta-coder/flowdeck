@@ -1,0 +1,21 @@
+FlowDeck final release cleanup manifest
+Created: 2026-08-14T14:05:32.1183906Z
+Scope: Permanently deleted FlowDeck-generated runtime data only.
+Format: absolute path | size in bytes | last modified UTC
+
+C:\Users\sheha\Desktop\flowdeck\data\audit\.dedupe\flowdeck-paper-events-2026-08-14.csv.event_id.jsonl | 10906123 | 2026-08-14T11:40:35.8087384Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\.dedupe\flowdeck-v3-manifests-2026-08-14.csv.manifest_id.jsonl | 1167 | 2026-08-14T11:40:35.8697368Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\.dedupe\flowdeck-v3-outcomes-2026-08-14.csv.outcome_id.jsonl | 31268 | 2026-08-14T11:40:35.5091214Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\events-2026-08-14.csv | 2120658 | 2026-08-14T14:01:55.5866952Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\flowdeck-paper-events-2026-08-14.csv | 401853181 | 2026-08-14T11:40:35.8047378Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\flowdeck-paper-trades-2026-08-14.csv | 24583 | 2026-08-14T08:24:35.4765611Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\flowdeck-v3-manifests-2026-08-14.csv | 12331 | 2026-08-14T11:40:35.8667382Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\flowdeck-v3-outcomes-2026-08-14.csv | 316434 | 2026-08-14T11:40:35.5081184Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\trades-2026-08-14.csv | 539220 | 2026-08-14T13:18:56.2087657Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\wallet-stats-2026-08-14.csv | 17070 | 2026-08-14T13:18:56.2117651Z
+C:\Users\sheha\Desktop\flowdeck\data\events.jsonl | 232338 | 2026-08-14T11:36:00.2941595Z
+C:\Users\sheha\Desktop\flowdeck\data\state-v03r.json | 1367610 | 2026-08-14T14:01:55.5956531Z
+C:\Users\sheha\Desktop\flowdeck\data\state.json | 525326 | 2026-08-14T11:40:35.8367437Z
+C:\Users\sheha\Desktop\flowdeck\data\wallet-cursors.json | 7693 | 2026-08-14T14:02:10.3584153Z
+C:\Users\sheha\Desktop\flowdeck\data\state-v03r.json | 150454 | 2026-08-14T15:41:59.7806406Z
+C:\Users\sheha\Desktop\flowdeck\data\audit\events-2026-08-14.csv | 80877 | 2026-08-14T15:41:59.7744874Z

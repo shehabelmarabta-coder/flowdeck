@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FlowDeck</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+<main>
+  <header><div class="logo">F</div><div><h1>FlowDeck</h1><p>Single-state, live-ready local paper execution.</p></div></header>
+  <section>
+    <h2>Paper-only safety boundary</h2>
+    <p>Live trading is blocked. This extension never asks for a private key, never signs or submits a transaction, and never calls Jupiter execute.</p>
+    <div class="notice">A public paper-taker address may be placed directly in <code>config.json</code> to test whether Jupiter can assemble an unsigned order. It is not a secret and the transaction is never executed.</div>
+    <button id="health">Check local paper engine</button>
+    <pre id="status">Not checked.</pre>
+  </section>
+  <section><h2>Evidence standard</h2><p>Reference marks are indicative only. Automated paper entries require an exact-sized Jupiter route, simulation classification, realistic delay, fresh revalidation and an immediate reverse route. Profitability remains unproven.</p></section>
+</main>
+<script src="options.js"></script>
+</body>
+</html>

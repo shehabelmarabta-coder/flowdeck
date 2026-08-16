@@ -1,0 +1,22 @@
+{
+  "name": "flowdeck-auto-bot",
+  "version": "3.1.0",
+  "private": true,
+  "description": "FlowDeck final single-state, survivorship-aware Jupiter paper-trading engine.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "node scripts/check-project.js",
+    "wallets:build": "node scripts/build-wallets.js",
+    "history:build": "node scripts/build-trajectory-index.js",
+    "smoke": "node scripts/smoke-v03r.js",
+    "smoke:control": "node scripts/smoke-bot.js",
+    "audit:demo": "node scripts/paper-audit-demo.js",
+    "reconcile:audit": "node scripts/reconcile-audit.js"
+  },
+  "license": "UNLICENSED"
+}

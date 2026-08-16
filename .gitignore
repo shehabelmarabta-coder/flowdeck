@@ -1,0 +1,13 @@
+data/*.json
+data/*.jsonl
+data/*.csv
+!data/.gitkeep
+!data/wallets.generated.json
+!data/trajectory.index.json
+data/audit/
+node_modules/
+*.log
+.DS_Store
+.agents/
+skills-lock.json
+.claude/

@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "FlowDeck Lite",
+  "version": "3.1.0",
+  "description": "FlowDeck final exact-route automated paper-trading overlay.",
+  "minimum_chrome_version": "111",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": [
+    "http://127.0.0.1:17333/*",
+    "https://gmgn.ai/*",
+    "https://*.gmgn.ai/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "FlowDeck - show paper panel"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://gmgn.ai/*", "https://*.gmgn.ai/*"],
+      "js": ["shared.js", "page-bridge.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://gmgn.ai/*", "https://*.gmgn.ai/*"],
+      "js": ["shared.js", "runtime-message.js", "content.js"],
+      "run_at": "document_idle",
+      "world": "ISOLATED"
+    }
+  ]
+}
